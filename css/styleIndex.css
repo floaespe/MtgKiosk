@@ -1,0 +1,44 @@
+*{margin:0;padding:0}
+body{font-family:Arial;font-size:14px;line-height:20px;background:#ffffff; overflow: hidden; height: 100%; width: 100%;}
+a{text-decoration:none;outline:none;color:#fff}
+a:hover,a:focus;a:active{text-decoration:none;outline:none;color:#000}
+
+h1,h2,h3,h4,h5,h6{font-weight:normal;margin:0 0 15px;}
+h2 {font-size:25px;line-height:30px}
+.column{width:1050px;display:block;margin:0 auto}
+
+/*Hheader*/
+.fix{overflow:hidden}
+img{max-width:55%; height:auto; border-radius: 5px;margin-left: 22.3%;margin-right:22.3%;}
+/*Hheader*/
+
+/*MENU*/
+.menu{max-width:100%; background-color: #FFFFFF; border-radius: 5px; min-height:2%;}
+
+#nav {margin:0%; padding:4% 0% 0% 5%; list-style:none; overflow: hidden;}
+#nav li{max-height: inherit; max-width: 100%; float: left; padding: 0% 5% 0% 5%;}
+#nav li a{color: #2574B0;
+display: block;
+font-size: 23px;
+font-weight: bold;
+text-align: center;
+padding: 2% 0% 2% 0%;}
+
+#nav li a:hover{opacity: 0.5;
+filter: alpha(opacity=50);
+transition: all 300ms ease 0s;-moz-transition: all 300ms ease 0s;-webkit-transition: all 300ms ease 0s;-o-transition: all 300ms ease 0s;-ms-transition: all 300ms ease 0s;}
+#nav ul{position:absolute;margin:0;padding:0;list-style:none;top:45px;z-index:99999;left:-99999px}
+#nav li:hover ul{left:0px;}
+#selectnav1{display:none;}
+/*MENU*/
+
+
+/* video*/
+
+.blog_feature_area{max-width: 100%; margin: 7% 0% 0% 0%;}
+#youTubeVid{max-height: 60%; max-width: 65%; padding-left: 17%}
+
+/*video cover*/
+
+
+
