@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Music Technology Group</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- bx slider-->
+		<link rel="stylesheet" href="css/jquery.bxslider.css">
+		<!-- Fonts-->
+		<link rel="stylesheet" href="fonts/HelveticaNeue/font.css">
+		<link rel="stylesheet" href="fonts/Bebas/font.css">
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+        <link href="css/stylePhonos.css" rel="stylesheet" media="screen">	
+		<link href="css/phonosGallery.css" rel="stylesheet" media="screen">	
+		<link href="css/responsive.css" rel="stylesheet" media="screen">
+        <link href="js/lightGallery/dist/css/lightgallery.css" rel="stylesheet">
+        
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+        <script src="http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.js"
+        type="text/javascript"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    </head>
+    
+    
+    <body class="home">
+        <div class="fix column">
+            
+            <div class="fix header">
+				<div class="fix logo floatcenter">
+					<a><img src= "images/mtgLogoAzul.png"></a>
+				</div>
+			</div>  
+            
+			<!-------_________------MENU-------_________------>
+            
+			<div class="menu">
+				<ul id="nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="technologies.html">Technologies</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="phonos.html">Phonos</a></li>
+                    <li><a href="news.html">News</a></li>
+				</ul>
+			</div>
+			
+            
+            <!-------_________------EndMenu-------_________------>
+            
+            
+    <!-----___-------_________------StuffSapce-------___-------______------>
+
+                    
+            <!-------_________------YOUTUBE-------_________------>
+            <div class="fix feature_videos floatleft">
+						<!--<h2>Featuered Videos</h2>-->
+                <div class="fix feature_video_container">
+				    <div class="fix single_cat">
+				        <div class="demo-gallery">              
+                            <ul id="lightgallery" class="list-unstyled row">
+                                <li id="workshopBox">
+                                    <h1>History</h1><h3 class="sideChar">(Playlist)</h3> 
+                                    <iframe sandbox="allow-scripts allow-same-origin" class="col-xs-6 col-sm-4 col-md-3 video" src="https://www.youtube.com/embed/videoseries?&rel=0&showinfo=1&fs=1&list=PLI3giU3DMGQCAIlJKGkwKj_cgn7SnDim-" frameborder="1" allowfullscreen data-sub-html="<h4>Phonos History"></iframe>
+                            
+                                </li>  
+                                <li>
+                                    <h1>Music</h1><h3 class="sideChar">(Playlist)</h3>  
+                                    <iframe sandbox="allow-scripts allow-same-origin" class="col-xs-6 col-sm-4 col-md-3 video" src="https://www.youtube.com/embed/videoseries?&rel=0&showinfo=1&fs=1&modestbranding=0&list=PLI3giU3DMGQCc-E6L-EekERihhxuL_UxG" frameborder="1" allowfullscreen data-sub-html="<h4>Phonos Music"></iframe>
+                                </li>
+                            
+                                <li>
+                                    <h1>Workshops</h1><h3 class="sideChar">(Playlist)</h3>  
+                                    <iframe sandbox="allow-scripts allow-same-origin" class="col-xs-6 col-sm-4 col-md-3 video" src="https://www.youtube.com/embed/videoseries?&rel=0&showinfo=1&fs=1&list=PLnbEg_EaFoLOfB0PS394qSwiCAxdDsNVF" frameborder="1" allowfullscreen data-sub-html="<h4>Phonos Workshop"></iframe>
+                                </li>
+                            
+        
+                         <!--   
+                          <li>
+                            <h1>APP</h1><h3>(Playlist)</h3> 
+                            <iframe class="col-xs-6 col-sm-4 col-md-3 video" src="https://www.youtube.com/embed/videoseries?&rel=0&showinfo=0&fs=1&list=PLI3giU3DMGQCAIlJKGkwKj_cgn7SnDim-" frameborder="0" allowfullscreen data-sub-html="<h4>Phonos History"></iframe>
+                            
+                          </li>
+                          -->    
+                        </ul>
+                        </div>
+				    </div>
+                </div>
+            </div>
+             <!-------_________------YOUTUBE_END-------_________------>
+                    
+
+        <div class="fix footer_area">
+				<ul>
+					<a>Derechos MTG</a>
+				</ul>
+        </div>
+		
+		
+		<script src="js/jquery-1.9.1.min.js"></script> 
+		<script src="js/jquery.bxslider.min.js"></script> 
+		<script type="text/javascript">
+			$('.bxslider').bxSlider({
+			  minSlides: 4,
+			  maxSlides: 4,
+			  slideWidth: 300,
+			  slideMargin: 10,
+			  captions : false,
+			  pager:true,
+			  auto: true,
+			  controls:false
+			  
+			});
+		</script>
+		
+		<script type="text/javascript" src="js/selectnav.min.js"></script>
+		<script type="text/javascript">
+			selectnav('nav', {
+			  label: '-Navigation-',
+			  nested: true,
+			  indent: '-'
+			});
+		</script>
+        
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $('#lightgallery').lightGallery();
+        });
+        </script>
+            
+        <script>    
+        // Website
+        $('#open-website').lightGallery({
+            selector: 'this',
+            iframeMaxWidth: '100%'
+        });    
+        </script>
+            
+             
+        <!--
+        <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+        <script src="js/lightGallery/dist/js/lightgallery.js"></script>
+        <script src="js/lightGallery/dist/js/lg-thumbnail.js"></script>
+        <script src="js/lightGallery/dist/js/lg-video.js"></script>
+        <script src="js/lightGallery/dist/js/lg-hash.js"></script>
+        <script src="js/lightGallery/dist/js/lg-pager.js"></script>  
+        -->
+            
+        <!--<script src="lightGallery/dist/js/lg-fullscreen.js"></script>-->    
+        <!--<script src="lightGallery/dist/js/lg-fullscreen.js"></script>-->    
+        <!--<script src="lightGallery/dist/js/lg-autoplay.js"></script>-->
+        <!--<script src="lightGallery/dist/js/lg-zoom.js"></script>-->
+        <!--<script src="lightGallery/lib/jquery.mousewheel.min.js"></script>-->    
+        
+        
+
+	</body>
+</html>

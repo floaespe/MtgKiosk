@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Music Technology Group</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- bx slider-->
+		<link rel="stylesheet" href="css/jquery.bxslider.css">
+		<!-- Fonts-->
+		<link rel="stylesheet" href="fonts/Bebas/font.css">
+		<!-- Font Awesome -->
+        <link href="css/styleNews.css" rel="stylesheet" media="screen">	
+		<link href="css/demoGallery.css" rel="stylesheet" media="screen">	
+		<link href="css/responsive.css" rel="stylesheet" media="screen">
+        <link href="js/lightGallery/dist/css/lightgallery.css" rel="stylesheet">
+        
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+        <script src="http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.js"
+        type="text/javascript"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    </head>
+    
+    
+    <body class="home">
+        <div class="fix column">
+            <div class="fix header">
+					<img src= "images/mtgLogoAzul.png">
+			</div>  
+            
+			<!-------_________------MENU-------_________------>
+            
+			<div class="menu">
+				<ul id="nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="technologies.html">Technologies</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="phonos.html">Phonos</a></li>
+                    <li><a href="news.html">News</a></li>
+				</ul>
+			</div>
+			
+            
+            <!-------_________------MENU-------_________------>
+
+             <!-------_________------NEWS START-------_________------>
+                    
+            <div class="fix blog_feature_area">					
+								
+				<iframe class="newsFrame" sandbox="allow-scripts allow-same-origin" src="newsFrame.html" </iframe>
+                                
+			</div>
+             <!-------_________------NEWS END-------_________-------->   
+
+
+		
+	    </div>
+
+			<div class="fix footer_area">
+				<ul>
+					<a>Derechos MTG</a>
+				</ul>
+			</div>
+		</div>
+		
+		<script src="js/jquery-1.9.1.min.js"></script> 
+		<script src="js/jquery.bxslider.min.js"></script> 
+		<script type="text/javascript">
+			$('.bxslider').bxSlider({
+			  minSlides: 4,
+			  maxSlides: 4,
+			  slideWidth: 300,
+			  slideMargin: 10,
+			  captions : false,
+			  pager:true,
+			  auto: true,
+			  controls:false
+			});
+		</script>
+		
+		<script type="text/javascript" src="js/selectnav.min.js"></script>
+		<script type="text/javascript">
+			selectnav('nav', {
+			  label: '-Navigation-',
+			  nested: true,
+			  indent: '-'
+			});
+		</script>
+		
+		
+	</body>
+</html>

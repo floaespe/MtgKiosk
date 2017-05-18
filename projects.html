@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Music Technology Group</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- bx slider-->
+		<link rel="stylesheet" href="css/jquery.bxslider.css">
+		<!-- Fonts-->
+		<link rel="stylesheet" href="fonts/Bebas/font.css">
+        <link href="css/styleProjects.css" rel="stylesheet" media="screen">	
+		<link href="css/projectsGallery.css" rel="stylesheet" media="screen">	
+		<link href="css/responsive.css" rel="stylesheet" media="screen">
+        <link href="js/lightGallery/dist/css/Projlightgallery.css" rel="stylesheet">
+        
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+        <script src="http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.js"
+        type="text/javascript"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    </head>
+    
+    
+    <body class="home">
+      <div class="fix column">
+            
+            <div class="fix header">
+				<div class="fix logo floatcenter">
+					<a><img id="head" src= "images/mtgLogoAzul.png"></a>
+				</div>
+			</div>  
+            
+			<!-------_________------MENU-------_________------>
+            
+			<div class="menu">
+				<ul id="nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="technologies.html">Technologies</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="phonos.html">Phonos</a></li>
+                    <li><a href="news.html">News</a></li>
+				</ul>
+			</div>
+            
+            
+            <div class="fix blog_feature_area">
+                    
+                  <div class="demo-gallery">
+                    <ul id="lightgallery" class="list-unstyled row">
+                        
+                      <button class="btn btn-success btn-lg mrb50" data-iframe="true" id="open-website" data-src="http://phenicx.com/"><img id="Proj_img" src="images/phenicx.png" /></button>
+                        
+                    
+                      <button class="btn btn-success btn-lg mrb50" data-iframe="true" id="open-website" data-src="http://compmusic.upf.edu"><img id="Proj_img" src="images/compMusic.png" /></button>
+                    
+                      <button class="btn btn-success btn-lg mrb50" data-iframe="true" id="open-website" data-src="http://www.mtg.upf.edu/projects/rapid-mix"><img id="Proj_img" src="images/rapidMix.png" /></button>  
+                    
+                      <button class="btn btn-success btn-lg mrb50" data-iframe="true" id="open-website" data-src="http://mtg.upf.edu/projects/casas"><img id="Proj_img" src="images/casas-01.png" /></button>
+                      
+                      <button class="btn2 btn-success btn-lg mrb50" data-iframe="true" id="open-website" data-src="http://mtg.upf.edu/node/3367"><img id="Proj_img" src="images/telmi.png" /></button>
+                        
+                      <button class="btn2 btn-success btn-lg mrb50" data-iframe="true" id="open-website" data-src="https://en.wikipedia.org/wiki/Vocaloid"><img id="Proj_img" src="images/vocaloid-01.png" /></button> 
+                
+                      <button class="btn2 btn-success btn-lg mrb50" data-iframe="true" id="open-website" data-src="http://www.audiocommons.org"><img id="Proj_img" src="images/audioCommons.png" /></button>
+                         
+                      
+                      <!--<button class="btn btn-success btn-lg mrb50" data-iframe="true" id="open-website" data-src="http://phonos.upf.edu"><img src="images/phonosLogo.png" /></button>-->     
+                  
+                     
+                    
+                    </ul> 
+                  </div>    
+
+            </div>
+      </div>
+        
+        <script src="js/jquery-1.9.1.min.js"></script> 
+		<script src="js/jquery.bxslider.min.js"></script> 
+		<script type="text/javascript">
+			$('.bxslider').bxSlider({
+			  minSlides: 4,
+			  maxSlides: 4,
+			  slideWidth: 300,
+			  slideMargin: 10,
+			  captions : false,
+			  pager:true,
+			  auto: true,
+			  controls:false
+			  
+			});
+		</script>
+		
+		<script type="text/javascript" src="js/selectnav.min.js"></script>
+		<script type="text/javascript">
+			selectnav('nav', {
+			  label: '-Navigation-',
+			  nested: true,
+			  indent: '-'
+			});
+		</script>
+        
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $('#lightgallery').lightGallery();
+            
+        });
+        </script>
+        
+        <script>    
+        // Website
+        
+        </script>
+            
+        
+        <script src="js/lightGallery/dist/js/lightgallery2.js"></script>
+        <!--<script src="js/lightGallery/dist/js/lg-fullscreen.js"></script>-->
+        <script src="js/lightGallery/dist/js/lg-thumbnail.js"></script>
+        <script src="js/lightGallery/dist/js/lg-Webs.js"></script>
+        <!--<script src="lightGallery/dist/js/lg-autoplay.js"></script>-->
+        <!--<script src="lightGallery/dist/js/lg-zoom.js"></script>-->
+        <script src="js/lightGallery/dist/js/lg-hash.js"></script>
+        <script src="js/lightGallery/dist/js/lg-pager.js"></script>
+        <!--<script src="js/lightGallery/lib/jquery.mousewheel.min.js"></script>-->
+    </body>
+</html>
